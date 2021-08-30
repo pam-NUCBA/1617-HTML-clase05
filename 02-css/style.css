@@ -1,0 +1,84 @@
+/*  la font es esta: https://fonts.google.com/specimen/Dancing+Script#standard-styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Roboto:wght@300&display=swap&display=swap');
+
+body {
+    margin: 0;
+    background-image: url('./assets/bokeh.jpg');
+}
+
+.navBar {
+    background-color: rgba(173, 128, 98, 0.5);
+    padding: 0.3%;
+}
+
+.logo {
+    height: 2.5em;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    display: inline;
+    color: white;
+    font-size: 3em;
+}
+
+h3,
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 2em;
+}
+
+.recipe {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+.recipe img {
+    width: 60%;
+    border-radius: 30px;
+}
+
+section.box {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 30px;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+.inner-box {
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.copy {
+    background-color: rgba(173, 128, 98, 0.6);
+    padding: 1%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin: auto;
+}
+
+.copy a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
